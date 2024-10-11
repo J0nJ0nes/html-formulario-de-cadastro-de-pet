@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de pet</title>
+</head>
+<body>
+    <main><form action="/submit" method="POST">
+        <h1>Cadastro de pets</h1>
+        <form>
+        <fieldset>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+            
+            <label for="especiedo animal">Especie do animal:</label>
+            <input type="especie do animal" id="email" name="especie do animal" required placeholder="Digite a especie do animal">
+    
+        <fieldset>
+            <legend>Preferências</legend>
+            
+            <label for="newsletter">
+              <input type="checkbox" id="newsletter" name="newsletter" checked>
+              Inscrever-se no boletim informativo
+            </label>
+            
+            <label for="gender-male">
+              <input type="radio" id="gender-male" name="gender" value="male">
+              Masculino
+            </label>
+            
+            <label for="gender-female">
+              <input type="radio" id="gender-female" name="gender" value="female">
+              Feminino
+            </label>
+    
+            <label for="country">Especie:</label>
+            <select id="country" name="country">
+              <option value="cahorro">cahorro</option>
+              <option value="Gato">Gato</option>
+              <option value="Passaro">Passaro</option>
+              <option value="Roedor">Roedor</option>
+              <option value="Aquatico">Aquatico</option>
+            </select>
+        </fieldset>
+        <label for="age">Idade:</label>
+        <input type="number" id="age" name="age" min="1" max="90">
+        <button type="submit">Enviar</button>
+        <label for="profile-pic">Foto de perfil:</label>
+<input type="file" id="profile-pic" name="profile-pic">
+    </form>
+    <link rel="stylesheet" href="index.css"><main>
+</body>
+</html>
